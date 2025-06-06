@@ -59,7 +59,9 @@ cmake .. -DCMAKE_TOOLCHAIN_FILE="[path_to_vcpkg]/scripts/buildsystems/vcpkg.cmak
 "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe" YOLOv8-OpenVINO-CPP-Inference.sln /p:Configuration=Release
 ```
 
-9. Inference using the compiled `detect.exe`executable
+## Inference using YOLOv8 OpenVINO model
+
+1. Inference using the compiled `detect.exe`executable
 
 ```sh
 cd Release
