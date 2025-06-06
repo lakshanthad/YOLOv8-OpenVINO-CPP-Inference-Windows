@@ -41,14 +41,14 @@ cd vcpkg
 
 Note: OpenCV and OpenVINO compilation will take around 2hr+ depending on your hardware configuration. Also it will take around 70GB+ of storage space.
 
-7. Clone the below repository and navigate to `YOLOv8-OpenVINO-CPP-Inference-Windows`
+7. Clone this repository and navigate to `YOLOv8-OpenVINO-CPP-Inference-Windows`
 
 ```sh
 git clone https://github.com/lakshanthad/YOLOv8-OpenVINO-CPP-Inference-Windows
 cd YOLOv8-OpenVINO-CPP-Inference-Windows
 ```
 
-Note: The above repository is a fork of `https://github.com/ultralytics/ultralytics/examples/YOLOv8-OpenVINO-CPP-Inference` with minor changes to `CMakeLists.txt` to make the example work on Windows systems
+Note: The above repository is a fork of [ultralytics/examples/YOLOv8-OpenVINO-CPP-Inference](https://github.com/ultralytics/ultralytics/tree/main/examples/YOLOv8-OpenVINO-CPP-Inference) with minor changes to `CMakeLists.txt` to make the example work on Windows systems
 
 8. Create a build directory and compile the project using CMake
 
