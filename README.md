@@ -48,7 +48,7 @@ git clone https://github.com/lakshanthad/YOLOv8-OpenVINO-CPP-Inference-Windows
 cd YOLOv8-OpenVINO-CPP-Inference-Windows
 ```
 
-Note: The above repository is a fork of [ultralytics/examples/YOLOv8-OpenVINO-CPP-Inference](https://github.com/ultralytics/ultralytics/tree/main/examples/YOLOv8-OpenVINO-CPP-Inference) with minor changes to `CMakeLists.txt` to make the example work on Windows systems
+Note: The above repository is a fork of [ultralytics/examples/YOLOv8-OpenVINO-CPP-Inference](https://github.com/ultralytics/ultralytics/tree/main/examples/YOLOv8-OpenVINO-CPP-Inference) with minor changes to `CMakeLists.txt` to make the example work on Windows systems. Make sure to change `[path_to_vcpkg]` inside `CMakeLists.txt`.
 
 8. Create a build directory and compile the project using CMake
 
